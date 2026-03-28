@@ -1,15 +1,27 @@
-# Python cache & Jupyter files
+# Python & Environments
 __pycache__/
 *.py[cod]
 *~
+.env
+venv/
+env/
+pytorch_env/
+
+# Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Datasets & Zips (DO NOT PUSH)
-task2/lens-finding-test/
-data/
+# Datasets & Archives (CRITICAL: Do not push these)
 task1/data/
 task1/dataset/
+task2/lens-finding-test/
 *.zip
+*.tar.gz
+*.rar
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Trashes
+Thumbs.db
+ehthumbs.db
