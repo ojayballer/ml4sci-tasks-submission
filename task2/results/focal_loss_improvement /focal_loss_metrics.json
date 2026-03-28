@@ -1,0 +1,5 @@
+{
+  "model": "EfficientNet_B2_finetuned_focal_loss",
+  "aucroc": 0.9154,
+  "pr_auc": 0.5762
+}

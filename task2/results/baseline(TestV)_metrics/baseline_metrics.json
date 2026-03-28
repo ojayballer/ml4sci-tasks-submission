@@ -1,0 +1,5 @@
+{
+  "model": "EfficientNet_B2_pretrain_baseline",
+  "aucroc": 0.9104,
+  "pr_auc": 0.55
+}

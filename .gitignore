@@ -1,0 +1,15 @@
+# Python cache & Jupyter files
+__pycache__/
+*.py[cod]
+*~
+.ipynb_checkpoints/
+
+# Datasets & Zips (DO NOT PUSH)
+task2/lens-finding-test/
+data/
+task1/data/
+task1/dataset/
+*.zip
+
+# OS generated files
+.DS_Store
