@@ -73,8 +73,18 @@ Full metrics: [baseline_metrics.json](task2/results/baseline(TestV)_metrics/base
 and [focal_loss_metrics.json](task2/results/focal_loss_improvement/focal_loss_metrics.json)  
 Comparison: [focal_loss_comparison.csv](task2/results/focal_loss_improvement/focal_loss_comparison.csv)
 
+
 The +2.62% jump in PR-AUC shows that Focal Loss successfully redirected 
 gradient updates toward the hard, rare lens candidates.
+
+---
+
+### Pre-trained Weights
+
+The weights for the fine-tuned Focal Loss model are available in the repository for direct inference and evaluation:
+
+* **Encoder:** [FocalLoss_Encoder_epoch1_auc0.9166.pth](task2/results/focal_loss_improvement/FocalLoss_Encoder_epoch1_auc0.9166.pth)
+* **Classifier:** [FocalLoss_Classifier_epoch1_auc0.9166.pth](task2/results/focal_loss_improvement/FocalLoss_Classifier_epoch1_auc0.9166.pth)
 
 ---
 
