@@ -10,7 +10,7 @@ pytorch_env/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Datasets & Archives (CRITICAL: Do not push these)
+# Datasets & Archives
 task1/data/
 task1/dataset/
 task2/lens-finding-test/
