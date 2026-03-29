@@ -1,0 +1,10 @@
+{
+  "model": "ResNet18_pretrained_3class",
+  "macro_auc": 0.9489,
+  "per_class_auc": {
+    "no": 0.9671,
+    "sphere": 0.9265,
+    "vort": 0.953
+  },
+  "best_val_acc": 0.8391
+}
